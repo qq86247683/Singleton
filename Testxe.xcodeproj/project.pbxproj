@@ -10,6 +10,7 @@
 		CBC0A7BE184DBD2100A67450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC0A7BD184DBD2100A67450 /* Foundation.framework */; };
 		CBC0A7C1184DBD2100A67450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC0A7C0184DBD2100A67450 /* main.m */; };
 		CBC0A7C5184DBD2100A67450 /* Testxe.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CBC0A7C4184DBD2100A67450 /* Testxe.1 */; };
+		CBC0A7CD184DBD2E00A67450 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC0A7CC184DBD2E00A67450 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		CBC0A7C0184DBD2100A67450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBC0A7C3184DBD2100A67450 /* Testxe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Testxe-Prefix.pch"; sourceTree = "<group>"; };
 		CBC0A7C4184DBD2100A67450 /* Testxe.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Testxe.1; sourceTree = "<group>"; };
+		CBC0A7CB184DBD2E00A67450 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		CBC0A7CC184DBD2E00A67450 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				CBC0A7C0184DBD2100A67450 /* main.m */,
+				CBC0A7CB184DBD2E00A67450 /* Car.h */,
+				CBC0A7CC184DBD2E00A67450 /* Car.m */,
 				CBC0A7C4184DBD2100A67450 /* Testxe.1 */,
 				CBC0A7C2184DBD2100A67450 /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBC0A7CD184DBD2E00A67450 /* Car.m in Sources */,
 				CBC0A7C1184DBD2100A67450 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
